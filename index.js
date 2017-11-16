@@ -13,6 +13,7 @@ function johnLennonFacts(facts){
     facts[counter] += '!!!';
     counter++;
   }
+  return facts;
 }
 
 function iLoveTheBeatles(n){
@@ -22,4 +23,5 @@ function iLoveTheBeatles(n){
     arr.push('I love the Beatles!');
     counter++;
   } while(counter < 15 && counter <= n);
+  return arr;
 }
